@@ -32,3 +32,21 @@ for i in range(len(Numbers)):
 
 print("\n")
 #Objective 5
+for i in range(len(Names)):
+    if (Names[i] > "Thor"):
+        print(Names[i])
+
+print("\n")
+Buffer = Numbers[0]
+Buffer2 = Numbers[0]
+#Objective 6
+for i in range(len(Numbers)):
+    if (Numbers[i] > Buffer):
+        Buffer = Numbers[i]
+
+for i in range(len(Numbers)):
+    if (Numbers[i] < Buffer2):
+        Buffer2 = Numbers[i]
+
+print("Max Value: " + str(Buffer))
+print("Min Value: " + str(Buffer2))
