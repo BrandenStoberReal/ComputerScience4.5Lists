@@ -25,3 +25,10 @@ for i in range(len(Numbers)):
 print(Sum)
 
 print("\n")
+#Objective 4
+for i in range(len(Numbers)):
+    if (Numbers[i] % 2 == 1):
+        print(Numbers[i])
+
+print("\n")
+#Objective 5
